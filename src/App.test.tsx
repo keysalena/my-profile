@@ -4,7 +4,7 @@ import App from './App'
 describe('App', () => {
   it('menampilkan nama profil', () => {
     render(<App />)
-    expect(screen.getByText('Keysa/i')).toBeInTheDocument()
+    expect(screen.getByText('/Keysa/i')).toBeInTheDocument()
 })
   it('menampilkan github link', () => {
     render(<App />)
